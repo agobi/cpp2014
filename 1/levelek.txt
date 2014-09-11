@@ -1,0 +1,4 @@
+#include "level.txt"
+
+#define NAME Gabor
+#include "level.txt"

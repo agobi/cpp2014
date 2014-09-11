@@ -1,0 +1,18 @@
+#ifndef NAME
+#define NAME Cimzett
+#define level_txt_name_defined
+#endif
+
+Kedves NAME,
+
+Tisztelettel tajekoztatom, hogy blablabla....
+
+Budapest, __DATE__
+
+Koszonettel,
+En
+
+#ifdef level_txt_name_defined
+#undef level_txt_name_defined
+#undef NAME
+#endif
