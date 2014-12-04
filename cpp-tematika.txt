@@ -1,0 +1,110 @@
+
+1. gyak: C++ programok forditasa, forditasi egyseg, targykod.
+         Hibalehetosegek: a preprocessor, a fordito es a
+         linker eseteben. Kulonbozo nyelven irt object-ek
+         osszeszerkesztese: lehetosegek, problemak.
+         Interpretalt es bytecode alapu nyelvek.
+         A gcc/g++ hasznalata, fontosabb kapcsoloi.
+         Tipikus warning-ok, nem-szabvanyos feature-k.
+         Hello World (C/C++) (using direktiva alapjan tobb
+         is): nevter fogalma, jelentosege.
+         printf vs. operator<<.
+         Szabvanyos C-s ill. C++-os fejallomanyok, tortenete.
+         Szabvanyos stream-ek, buffer-ezesuk: ennek jelentosege.
+         debug-golas fogalma, lehetosege.
+
+
+2. gyak: fahr2cels (C,C++), tipikus hibak.
+         erosen tipusos nyelvek fogalma, printf hatranyai,
+         a preprocessor hasznalatanak minimalizasa,
+         const-ok fogalma es jelentosege, inline
+         fuggvenyek fogalma. pointerek bevezetese:
+         cimkepzes es dereferalas. const-ok es pointerek.
+         nullpointer, 0 vs NULL, C++11
+
+3. gyak: cat (C,C++): kulonbsegek magyarazata.
+         std::cin >> ch - mint feltetel - mukodese: void* konverzios
+         operator, egyszeru pelda konverzios operatorra.
+         operator>> es a whitespace-ek, manipulator-ok.
+         pointer-aritmetika, tombok es pointerek kapcsolata,
+         strlen megvalositasa a pointer-aritmetika
+         segitsegevel. Hibalehetoseg: == helyett =. Kovetkezmenyek:
+         konstans ill. nem konstans tarteruleten. Hogyan kerulheto el?
+         A sizeof operator.
+
+4. gyak: toupper, static_cast, reinterpret_cast, dynamic_cast,
+         const_cast, veszelyek. C-s castolas hatranyai.
+         tetszoleges karakterkonverzio,
+         referenciak fogalma, pointerek vs. referenciak,
+         parameteratadas,
+         binaris fa (pointer referenciak, objektumok a heapen
+         ill. stack-en, vo. pl. Java). a new es a delete helyes
+         hasznalata. null vs nullpointer,
+         fuggvenypointerek
+
+5. gyak: STL bevezetese. kontenerek, algoritmusok.
+         algoritmusok hasznalata fuggvenyekkel.
+         Iteratorok fogalma, kapcsolat a pointerekkel.
+
+6. gyak: tipusok, osztalyok bevezetese. Felsorolasi tipusok.
+         struct vs class. Alapveto muveletek: deklaraciojuk,
+         mikor "jonnek letre", mikor van szukseg rajuk:
+         - default ctor (magyarazat az ures zarojel
+           elhagyasara meghivaskor)
+         - copy ctor, operator=
+         - dtor,
+         - cimkepzo operatorok
+         Osszefugges ezek kozott.
+
+         limited tipusok C++-ban, C++11
+         this pointer fogalma,
+         Garbage collect-alt (Java, Ada) nyelvek vs. C++
+
+7. gyak: primitiv vector tipus: heap-en letrehozott tomb, kapacitassal,
+merettel.
+         Inicializalo lista, szerepe, szuksegessege?
+         copy ctor, operator=: atmasolni az elemeket egy uj tarteruletre.
+         A referencia-szamlalas lehetosege. Masolasi kulonbseg az
+         std::vector es az std::string eseteben.
+         Specialis masolasok: std::auto_ptr. Miert nem hasznalhato az
+         auto_ptr es az STL-lel?
+         smart pointerek
+         const tagfuggvenyek, this tipusa.
+         const-on tulterheles fogalma es hattere. typedef-ek.
+
+8. gyak: operatorok, tulajdonsagok.
+         Tag es nem-tag operatorok, magyarazat, peldak.
+         Pre- es postfix operator++, stb. viselkedese.
+         Specialis operator: operator(), funktorok fogalma, szuksegessege.
+         Peldak funktorokra: for_each-csel tetszoleges stream-re iratni
+         int-eket tartalmazo kontenert; osszegzes megvalositasa
+         for_each-csel es funktorral.
+
+9. gyak: template-ek.
+         fv-ek: template max. Hasznalat, felmerulo problemak,
+         parameter dedukcio, explicit specializacio.
+         std::for_each algoritmus implementacioja.
+         Sablon-szerzodes modell es hianya, conceptek.
+         Template osztalyok. Mik lehetnek template parameterek.
+         Template parameterek default ertekei, pl. std::set
+         deklaracioja. Template parameterek vs. fuggveny parameterek,
+         Template osztalyok es specializaciok (reszleges, teljes).
+         Metaprogramozas alapjai.
+         Ketfelekeppen template-siteni azt az elozo orai funktor osztalyt,
+         amelyik tetszoleges stream-re ir: template osztaly, ill.
+         nem-template osztaly template operator()-ral, kulonbsegek.
+         Fuggo nevek es a typename szuksegessege, peldak a typename-re.
+
+10. gyak: oroklodes, polimorfizmus. publikus oroklodes:
+          virtualis es nem-virtualis fuggvenyek,
+          tisztan virtualis fuggvenyek, absztrakt osztaly.
+          dynamic_cast, virtualis fuggvenyek es a
+          parameterek alapertelmezett erteke.
+          Elrejtes vs. feluldefinialas.
+          Virtualis destruktorok szerepe.
+          Private es protected oroklodes.
+          Tobbszoros oroklodes, ervek pro es contra,
+          virtualis oroklodes.
+
+11. gyak: regebbi zh peldak
+
